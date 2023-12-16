@@ -70,3 +70,5 @@ usuario = Person("Ana", "user")
 
 usuario.borrow_book(libro1)  # Ana pide prestado el libro
 usuario.return_book(libro1)  # Ana devuelve el libro
+
+print(libro1)
