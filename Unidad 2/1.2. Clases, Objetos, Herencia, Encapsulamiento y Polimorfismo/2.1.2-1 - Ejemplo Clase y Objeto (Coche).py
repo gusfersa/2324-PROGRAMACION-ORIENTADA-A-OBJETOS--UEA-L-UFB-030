@@ -9,6 +9,10 @@ class Coche:
     def arrancar(self):
         print(f"El coche {self.marca} {self.modelo} color {self.color} está arrancando.")
 
+    def informacion(self):
+        print(f"Datos Informativos del coche: {self.marca} {self.modelo} color {self.color}.")
+
+
 # En este ejemplo, Coche es la clase con atributos marca, modelo, y color, y un método arrancar().
 
 # Creación de Objetos:
@@ -18,3 +22,6 @@ class Coche:
 
 mi_coche = Coche("Suzuki", "SZ", "Gris")
 mi_coche.arrancar()
+
+coche_luis = Coche("KIA", "Sportage", "Azul")
+coche_luis.informacion()

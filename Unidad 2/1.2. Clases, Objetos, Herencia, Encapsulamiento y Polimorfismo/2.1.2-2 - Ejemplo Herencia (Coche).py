@@ -21,6 +21,17 @@ class Coche(Vehiculo):  # Herencia de la clase Vehiculo
     def mostrar_informacion(self):
         return f"Coche {self.marca} {self.modelo}, con {self.numeroDePuertas} puertas"
 
-# Creación de un objeto de la clase Coche
+class Motocicleta(Vehiculo):
+    def __init__(self, marca, modelo, cilindraje):
+        super().__init__(marca, modelo)
+        self.cilindraje = cilindraje
+
+    def mostrar_informacion(self):
+        return f"Motocicleta {self.marca} {self.modelo}, cilindraje {self.cilindraje} "
+
+    # Creación de un objeto de la clase Coche
 mi_coche = Coche("Toyota", "Corolla", 4)
 print(mi_coche.mostrar_informacion())
+
+mi_motocicleta = Motocicleta("KTM","XYZ", 1200)
+print((mi_motocicleta.mostrar_informacion()))
