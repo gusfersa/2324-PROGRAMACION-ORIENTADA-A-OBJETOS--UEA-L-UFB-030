@@ -9,3 +9,9 @@ conjunto_ejemplo = {1, 2, 3, 4}
 
 # Tupla: Colección ordenada e inmutable.
 tupla_ejemplo = (1, "dos", 3.0)
+
+#Impresión en pantalla
+print(lista_ejemplo)
+print(diccionario_ejemplo)
+print(conjunto_ejemplo)
+print(tupla_ejemplo)
