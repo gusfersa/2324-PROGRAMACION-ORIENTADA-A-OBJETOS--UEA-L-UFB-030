@@ -28,6 +28,7 @@ class CarritoDeCompras:
 carrito = CarritoDeCompras()
 carrito.agregar_producto(Producto("Manzana", 0.90))
 carrito.agregar_producto(Producto("Pan", 1.10))
+carrito.agregar_producto(Producto("Lecha", 0.80))
 
 carrito.mostrar_productos()
 print(f"Total: ${carrito.calcular_total()}")
