@@ -7,6 +7,7 @@ def mostrar_mensaje():
 # Crear la ventana principal
 ventana = tk.Tk()
 ventana.title("Ejemplo de GUI con Tkinter")
+ventana.geometry('400x400')
 
 # Crear un botón
 boton = tk.Button(ventana, text="Mostrar mensaje", command=mostrar_mensaje)
