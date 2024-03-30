@@ -18,7 +18,7 @@ def on_escape_key(event):
 
 root = tk.Tk()
 root.title("Interfaz de Usuario de Demostración")
-root.geometry("300x200")  # Establece un tamaño para la ventana
+root.geometry("400x200")  # Establece un tamaño para la ventana
 
 # Crea un Label para indicar al usuario que ingrese texto
 instruction_label = tk.Label(root, text="Por favor, ingresa un texto:", font=("Arial", 14))
